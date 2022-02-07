@@ -35,6 +35,7 @@ if(isset($_POST['actualizar'])){
     <div class="row">
         <div class="col-md-4 mx-auto">
             <div class="card card-body">
+            <label class="label__titulo">Edite la tarea pendiente</label>
                 <form action="editar_tarea.php?id=<?php echo $_GET['id']; ?>" method="POST">
                     <div class="form-group">
                         <input type="text" name="titulo" value="<?php echo $titulo; ?>" class="form-control" placeholder="Titulo">

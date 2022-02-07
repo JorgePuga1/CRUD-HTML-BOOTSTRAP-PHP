@@ -3,7 +3,7 @@
 <?php include("incluir/header.php") ?>
 
 <div class="row">
-    
+
     <div class="col-md-4">
 
 
@@ -21,6 +21,7 @@
 
 
     <div class="card card-body">
+        <label class="label__titulo">Ingrese las tareas pendientes</label>
         <form action="guardar_tarea.php" method="POST">
           <div class="form-group">
             <input type="text" name="titulo" class="form-control" placeholder="Titúlo de la Tarea" autofocus>
