@@ -1,5 +1,9 @@
 <?php 
 
+
+session_start();
+
+
 $conn = mysqli_connect(
     'localhost', /*nombre del dominio*/ 
     'root',/*usuario*/
